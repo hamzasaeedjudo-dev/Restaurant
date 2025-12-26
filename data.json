@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "https://fakerestaurantapi.runasp.net/images/baklava.jpg",
+    "title": "Goulash",
+    "description": "meat,onion,soft bread,paprika,sauce, etc."
+  },
+  {
+    "id": 2,
+    "image": "imgs/burger.jpg",
+    "title": "Dumplings",
+    "description": "bread,meat,lettuce,tomato,sauce,cheese, etc."
+  },
+  {
+    "id": 3,
+    "image": "imgs/pizza.jpg",
+    "title": "Pizza",
+    "description": "bread,chicken,cheese,sauce,olive,pepperoni,etc."
+  },
+  {
+    "id": 4,
+    "image": "imgs/macncheese.jpg",
+    "title": "Mac and Cheese",
+    "description": "Pasta , Some Spices , cheese , Milk , Butter , Flour."
+  },
+  {
+    "id": 5,
+    "image": "imgs/curry.jpg",
+    "title": "Curry",
+    "description": "Aromatics , Seosoning , Species , Other Ingredients."
+  },
+  {
+    "id": 6,
+    "image": "imgs/schnitzel.jpg",
+    "title": "Schnitzel",
+    "description": "Slice of Bread , Veal , Pork , Chicken , Turkey."
+  },
+  {
+    "id": 7,
+    "image": "imgs/tomato-salad.jpg",
+    "title": "Tomato Salad",
+    "description": "Tomatoes , Fresh Ingredients , Dressing , optional addition."
+  },
+  {
+    "id": 8,
+    "image": "https://fakerestaurantapi.runasp.net/images/bagara%20baigan.webp",
+    "title": "Pancakes",
+    "description": "Eggs , Milk , Flour , Butter , Sugar , Flavorings like vanilla , Baking powder"
+  },
+  {
+    "id": 9,
+    "image": "https://fakerestaurantapi.runasp.net/images/bengali%20thali.jpg",
+    "title": "Ramen",
+    "description": "Wheat Noodles , Broth ,Topping,Flavorings , Aromatic Oils."
+  },
+  {
+    "id": 10,
+    "image": "https://fakerestaurantapi.runasp.net/images/berry%20pulav.jpeg",
+    "title": "Caesar Salad",
+    "description": "Romaine lettuce, Croutons, Parmesan cheese, Caesar dressing, Optional ingredients."
+  }
+]

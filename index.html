@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="imgs/logo.png" alt="logo" class="logo-img" />
+
+      <div class="menu-btn" id="menuBtn">☰</div>
+
+      <nav id="navMenu">
+        <ul>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <img src="imgs/hero.png" alt="hero" class="hero-img" />
+      </section>
+
+      <section id="recipes">
+        <h1 class="heading-rec"><span>Our</span> Recipes</h1>
+
+        <div class="container">
+          <div class="card">
+            <img src="imgs/burger.jpg" alt="burger" />
+            <h3>Burger</h3>
+            <p>bread,meat,lettuce,tomato,sauce,cheese, etc.</p>
+          </div>
+
+          <div class="card">
+            <img src="imgs/dumplings.jpg" alt="dumplings" />
+            <h3>Dumplings</h3>
+            <p>bread,meat,lettuce,tomato,sauce,cheese, etc.</p>
+          </div>
+
+          <div class="card">
+            <img src="imgs/pizza.jpg" alt="pizza" />
+            <h3>Pizza</h3>
+            <p>pepperoni,cheese,sauce,olive,chicken,bread,etc.</p>
+          </div>
+        </div>
+
+        <div class="form-container" id="formContainer">
+          <form id="addRecipeForm">
+            <input
+              type="text"
+              id="recipeTitle"
+              placeholder="Recipe Title"
+              required
+            />
+
+            <input
+              type="url"
+              id="recipeImage"
+              placeholder="Image URL"
+              required
+            />
+
+            <textarea
+              id="recipeDescription"
+              placeholder="Recipe Description"
+              required
+            ></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="button" class="cancel-btn">Cancel</button>
+          </form>
+        </div>
+
+        <button class="add-btn">add item</button>
+      </section>
+
+      <section id="about">
+        <h1 class="heading-rec">About <span>Us</span></h1>
+
+        <div class="container">
+          <img src="imgs/cheif-1.jpg" alt="chef" class="chief" />
+
+          <p>
+            🍽️ Order Fresh, Flavorful Food Anytime <br>
+Experience the convenience of enjoying delicious meals without cooking. Our food ordering program offers a wide range of options—from hearty comfort dishes to international flavors, healthy choices, snacks, and desserts. Every meal is prepared by skilled chefs using quality ingredients to ensure great taste in every bite.
+
+Simply browse the menu, choose what you love, and place your order with ease. Fast delivery and a smooth ordering experience make it simple to enjoy restaurant-quality food at home, at work, or wherever you are. Great food, no effort—just the way it should be.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact-us">
+        <h1 class="heading-rec"><span>Contact</span> Us</h1>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <section id="feedback">
+        <h1 class="heading-rec"><span>Feedback</span></h1>
+
+        <form id="feedbackForm">
+          <div class="stars-container" style="text-align: center">
+            <p class="star">★</p>
+            <p class="star">★</p>
+            <p class="star">★</p>
+            <p class="star">★</p>
+            <p class="star">★</p>
+          </div>
+
+          <div style="text-align: center; margin-top: 20px">
+            <button type="submit">Submit Feedback</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>copyright © 2025 Techno-Genius</footer>
+  </body>
+</html>
